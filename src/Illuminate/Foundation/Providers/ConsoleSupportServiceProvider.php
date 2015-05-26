@@ -18,7 +18,6 @@ class ConsoleSupportServiceProvider extends ServiceProvider {
 		'Illuminate\Foundation\Providers\PublisherServiceProvider',
 		'Illuminate\Foundation\Providers\RouteListServiceProvider',
 		'Illuminate\Foundation\Providers\ServerServiceProvider',
-		'Illuminate\Foundation\Providers\TinkerServiceProvider',
 		'Illuminate\Queue\FailConsoleServiceProvider',
 	);
 
