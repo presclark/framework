@@ -1126,7 +1126,6 @@ class Application extends Container implements HttpKernelInterface, TerminableIn
 			'router'         => 'Illuminate\Routing\Router',
 			'session'        => 'Illuminate\Session\SessionManager',
 			'session.store'  => 'Illuminate\Session\Store',
-			'remote'         => 'Illuminate\Remote\RemoteManager',
 			'url'            => 'Illuminate\Routing\UrlGenerator',
 			'validator'      => 'Illuminate\Validation\Factory',
 			'view'           => 'Illuminate\View\Factory',
