@@ -4,7 +4,6 @@ use Closure;
 use DateTime;
 use Illuminate\Container\Container;
 use Illuminate\Encryption\Encrypter;
-use Illuminate\Support\SerializableClosure;
 
 abstract class Queue {
 
@@ -68,9 +67,7 @@ abstract class Queue {
 	 */
 	protected function createClosurePayload($job, $data)
 	{
-		$closure = $this->crypt->encrypt(serialize(new SerializableClosure($job)));
-
-		return array('job' => 'IlluminateQueueClosure', 'data' => compact('closure'));
+		throw new Exception('removed dependency on SuperClosure');
 	}
 
 	/**
